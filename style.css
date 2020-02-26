@@ -341,7 +341,8 @@ video {
   .player__scrubber-handle {
     position: absolute;
     height: 0.75em;
-    width: 100%;
+    left: 0;
+    right: 1px;
     pointer-events: none;
     border-left: 1px solid white;
     top: 0; }
